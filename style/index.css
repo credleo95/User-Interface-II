@@ -67,6 +67,15 @@ nav{
     display: flex; 
     justify-content: center; 
 }
+@media (max-width:800px){
+    nav{ 
+        display: flex; 
+        flex-flow: column wrap;
+        text-align: center;
+        margin: 1%;  
+    }
+}
+
 button{
     height: 2rem; 
     width: 7rem; 
@@ -74,7 +83,7 @@ button{
 }
 #jumbo-image{
     display: flex; 
-    justify-content: center; 
+    justify-content: center;
     padding-bottom: 2rem; 
 }
 .contact{
@@ -84,8 +93,20 @@ button{
     display: flex; 
     padding-bottom: 1%; 
 }
+@media (max-width:800px){
+    .bottom-container{ 
+        display: flex; 
+        flex-flow: row wrap;
+    }
+} 
 .bottom-container img{
     margin: .5%; 
+}
+@media (max-width:800px){
+    p{
+        font-size: 1%; 
+        text-align: center; 
+    }
 }
 p{
     display: flex; 
@@ -95,6 +116,7 @@ p{
     font-family: 'Quicksand', sans-serif;
     margin: 1%; 
 }
+
 .contact{
     background-color:#505656; 
     height: 2%; 
