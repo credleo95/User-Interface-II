@@ -121,8 +121,9 @@ button{
 @media (max-width:800px){
     .bottom-container{ 
         display: flex; 
-        flex-flow: row wrap;
-        justify-content: ; 
+        flex-flow:row wrap;
+        justify-content: center; 
+        width:90%;
     }
 } 
 .bottom-container img{
@@ -135,6 +136,7 @@ button{
     }
 }
 
+}
 @media (max-width:800px){
     p{
         font-size: 1%; 
