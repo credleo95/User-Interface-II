@@ -372,19 +372,21 @@ a{
       background:#3b3e3a;
   }
   .name-projects{
-      background-image: url(https://picsum.photos/600);
+      background-image: url(https://picsum.photos/200); 
   }
   p{
       color: white; 
   }
+.flex-section-1{
+  display: flex; 
+  flex-flow: row; 
+  justify-content: center; 
+  
+}
+.flex-section-2{
+  display: flex; 
+  flex-flow: row; 
+  justify-content: center; 
+}
 
-  .flex-container-top{
-      margin-top: 2rem; 
-      display: flex; 
-      justify-content: space-evenly;
-      }
-      .flex-container-bottom{
-          margin-top: 2rem; 
-          display: flex; 
-          justify-content: space-evenly; 
-      }
+ .
