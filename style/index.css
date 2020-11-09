@@ -379,6 +379,10 @@ button:hover{
 #statement{
   width: 45%; 
 }
+#statement button{
+  width: 9rem; 
+  height: 2rem; 
+}
 a{
 text-decoration: none;
 color: white; 
