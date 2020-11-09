@@ -349,44 +349,53 @@
     display: none;
   }
   html{
-      background-color:#3D3A3E;
-      /* width: 600px;  */
-  }
-  .flex-links{
-      display: flex; 
-      justify-content: flex-end; 
-  }
-a{
-    text-decoration: none; 
-    color: white; 
-    border: 1px solid #9e9c9e; 
-    padding-right: 1rem; 
-    padding-left: 1rem; 
-}
-  button{
-      border: 2px solid black; 
-      display: inline-block; 
-      /* padding: 2rem;  */
-  }
-  button:hover{
-      background:#3b3e3a;
-  }
-  .name-projects{
-      background-image: url(https://picsum.photos/200); 
-  }
-  p{
+      background-color: #09314a;
       color: white; 
   }
-.flex-section-1{
-  display: flex; 
-  flex-flow: row; 
-  justify-content: center; 
-  
+  header,footer{
+    background-color:#e66414; 
+    padding: 1rem; 
+  }
+  .flex-links{
+    display: flex; 
+    justify-content: flex-start; 
+  }
+  button{
+    border: 1px solid white; 
+    background-color: #09314a;
 }
-.flex-section-2{
+button:hover{
+  background-color:#e66414;
+}
+.top-flex-section{
+  margin-top: 2rem; 
   display: flex; 
-  flex-flow: row; 
-  justify-content: center; 
+  justify-content: space-evenly; 
+}
+.top-flex-section p,h2{
+  font-size: 1.5rem; 
 }
 
- .
+#statement{
+  width: 45%; 
+}
+a{
+text-decoration: none;
+color: white; 
+}
+
+.flex-section-1,.flex-section-2{
+  display: flex; 
+}
+footer{
+  padding: 2rem; 
+}
+footer p{
+  font-size: 1.5rem; 
+}
+.flex-footer{
+ text-align: center; 
+display: flex; 
+flex-direction: column;  
+}
+ 

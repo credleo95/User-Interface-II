@@ -8,20 +8,27 @@
 </head>
 <body>
     <header> 
-        <p> Omarius Credle</p>
-        <div class="flex-links"> 
-        <a href="#"> Home</a>
-        <a href="about.html">About</a>
-        <a href="/contact.html">Contact</a>
-        <a href="projects.html">Projects</a>
-    </div>
+        <h1> Omarius Credle</h1>
+      <nav class="flex-links">
+        <button><a href="#"> Home</a></button>
+        <button><a href="about.html">About</a></button>
+        <button><a href="/contact.html">Contact</a></button>
+        <button><a href="projects.html">Projects</a></button>
+      </nav>
     </header>
-    <section class="name-projects"> 
-        <h1 style="display: inline;">Omarius Credle</h1>
-        <img src="https://picsum.photos/400" alt=""/>
-        <button id="projects-button"><a href="projects.html">My Projects</a></button>
+
+    <section class="top-flex-section"> 
+      <div>
+        <img src="https://picsum.photos/500/300" alt=""/>
+    </div>
+    <div id="statement">
+        <h2>Omarius Credle</h2>
+        <button><a href="projects.html">My Projects</a></button>
+        <p> This is a paragraph about the work you see below. I worked very hard on all of the displayed projects. Thank you for looking at my work. I hope you like what I have to offer. If you do not, please tell me what you would like to see. I would love more ideas.</p>
+    </div>
     </section>
-    <section> 
+
+    <section class="flex-boxes"> 
         <div class="flex-section-1">
         <figure>
             <img src="https://picsum.photos/200" alt=""/>
@@ -36,12 +43,12 @@
             <img src="https://picsum.photos/200" alt=""/>
             <figcaption>Caption 3</figcaption>
         </figure>
-    </div>
-        <div class ="flex-section-2">
         <figure>
             <img src="https://picsum.photos/200" alt=""/>
             <figcaption>Caption 4</figcaption>
         </figure>
+    </div>
+        <div class ="flex-section-2">
         <figure>
             <img src="https://picsum.photos/200" alt=""/>
             <figcaption>Caption 5</figcaption>
@@ -49,12 +56,22 @@
         <figure>
             <img src="https://picsum.photos/200" alt=""/>
             <figcaption>Caption 6</figcaption>
+            </figure>
+            <figure>
+                <img src="https://picsum.photos/200" alt=""/>
+                <figcaption>Caption 7</figcaption>
+            </figure>
+            <figure>
+                <img src="https://picsum.photos/200" alt=""/>
+                <figcaption>Caption 8</figcaption>
+            </figure>
         </div>
     </section>
-    <footer>
-        <address>
-            <button><a href="contact.html"> Contact Me</a><button>
-        </address>
+    <footer class="flex-footer">
+        <p>Like what you see?</p>
+        <div> 
+        <button><a href="contact.html">Contact Me</a>
+        </div>
     </footer>
 </body>
 </html>
