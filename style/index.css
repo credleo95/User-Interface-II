@@ -380,14 +380,14 @@
     }
    
   }
+  /* This media query aligns the image and resizes the navigational bar. */
   @media only screen and (max-width: 500px){
     .flex-links{
       width: 25%; 
       margin-top: -1rem; 
   }
   .top-flex-section img{
-     width: 75%; 
-     text-align: left; 
+     width: 70%; 
   }
 }
   button{
@@ -402,6 +402,7 @@ button:hover{
   display: flex; 
   justify-content: space-evenly; 
 }
+/* This media query aligns the image and paragraph  */
 @media only screen and (max-width: 800px){
   .top-flex-section{
     flex-direction: column; 
@@ -432,7 +433,9 @@ color: white;
 
 .flex-section-1,.flex-section-2{
   display: flex; 
+  flex-flow: row wrap; 
 }
+/* This media query provides proper alignment of columns */
 @media only screen and (max-width: 800px){
   .flex-boxes{
     display: flex; 
@@ -444,6 +447,7 @@ color: white;
   }
   
 }
+
 footer{
   padding: 2rem; 
 }
