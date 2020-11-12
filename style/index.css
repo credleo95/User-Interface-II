@@ -360,6 +360,36 @@
     display: flex; 
     justify-content: flex-start; 
   }
+  @media only screen and (max-width: 800px){
+    .flex-links{
+      flex-direction: column; 
+      width: 15%; 
+      margin: 0 auto;
+      margin-top: -1rem; 
+    }
+    .flex-links button{
+      height: 2rem; 
+    }
+    h1{
+      text-align: center;
+      font-size: 2.75rem;  
+    }
+    header,footer{
+      width: 100%;
+      background-color:#e66414;  
+    }
+   
+  }
+  @media only screen and (max-width: 500px){
+    .flex-links{
+      width: 25%; 
+      margin-top: -1rem; 
+  }
+  .top-flex-section img{
+     width: 75%; 
+     text-align: left; 
+  }
+}
   button{
     border: 1px solid white; 
     background-color: #09314a;
@@ -371,6 +401,18 @@ button:hover{
   margin-top: 2rem; 
   display: flex; 
   justify-content: space-evenly; 
+}
+@media only screen and (max-width: 800px){
+  .top-flex-section{
+    flex-direction: column; 
+  }
+  .top-flex-section img{
+    margin-left: 20%; 
+  }
+  #statement{
+    margin-left: 30%; 
+    text-align: center; 
+  }
 }
 .top-flex-section p,h2{
   font-size: 1.5rem; 
@@ -391,11 +433,22 @@ color: white;
 .flex-section-1,.flex-section-2{
   display: flex; 
 }
+@media only screen and (max-width: 800px){
+  .flex-boxes{
+    display: flex; 
+    align-items: center;
+    justify-content: center; 
+  }
+  .flex-section-1,.flex-section-2{
+    flex-direction: column; 
+  }
+  
+}
 footer{
   padding: 2rem; 
 }
 footer p{
-  font-size: 1.5rem; 
+  font-size: 2rem; 
 }
 .flex-footer{
  text-align: center; 
